@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block head %}
+  {{ super() }}
+  <style type="text/css">
+    .inquiry-block {
+        background-color: #f5f7f7;
+        padding: 10px;
+        border-radius: 5px;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+    <div>
+        <h3>Hi {{product_name}} Team,</h3>
+        <p>
+            <b>From</b>
+            <p class="inquiry-block">{{user}}</p>
+        </p>
+        <p>
+            <b>Inquiry [{{inquiry_type}}]</b>
+            <p class="inquiry-block">{{inquiry}}</p>
+        </p>
+        <p>
+            <b>Message</b>
+            <p class="inquiry-block">{{message|safe}}</p>
+        </p>
+    </div>
+{% endblock %}

@@ -1,0 +1,20 @@
+# core
+core.app_name: "Venom"
+
+# core.server
+core.server.host: "0.0.0.0"
+core.server.port: 443
+core.server.mode: "dev"
+core.server.cors.origins: ["*"]
+core.server.cors.allow_credentials: True
+core.server.cors.allow_methods: ["*"]
+core.server.cors.allow_headers: ["*"]
+
+# core.database
+core.database.url: "sqlite:///foo.db"
+core.database.pool_size: 10
+core.database.max_overflow: 20
+core.database.apply_migrations: False
+
+# core.logs
+core.logs.folder_path: "./logs"

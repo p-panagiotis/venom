@@ -1,0 +1,6 @@
+# core.api.emails configurations
+core.api.emails.from_mask: "Venom App"
+core.api.emails.smtp_host: "mock"
+core.api.emails.smtp_port: ~
+core.api.emails.user: "mock"
+core.api.emails.password: "mock"

@@ -1,0 +1,3 @@
+# core.api.inquiries configurations
+core.api.inquiries.support_address: ~
+core.api.inquiries.support_inquiry_subject: "New inquiry"

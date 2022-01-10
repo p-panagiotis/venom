@@ -1,0 +1,10 @@
+# core.server
+core.server.mode: "tests"
+
+# core.database
+core.database.url: "postgresql+psycopg2://username:example@localhost/db"
+core.database.apply_migrations: True
+
+# core.api.oauth2
+core.api.oauth2.secret_key: ""
+core.api.oauth2.access_token_expire_minutes: 1440

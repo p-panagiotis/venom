@@ -1,0 +1,20 @@
+# core.server
+core.server.host: "0.0.0.0"
+core.server.port: 8000
+
+# core.database
+core.database.url: "postgresql+psycopg2://username:example@localhost/db"
+core.database.apply_migrations: True
+
+# core.api.oauth2
+core.api.oauth2.secret_key: ""
+core.api.oauth2.access_token_expire_minutes: 1440
+
+# core.api.emails
+core.api.emails.smtp_host: "smtp.gmail.com"
+core.api.emails.smtp_port: 465
+core.api.emails.user: ""
+core.api.emails.password: ""
+
+# core.api.inquiries
+core.api.inquiries.support_address: ""

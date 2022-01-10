@@ -1,0 +1,4 @@
+# core.api.oauth2
+core.api.oauth2.secret_key: ~
+core.api.oauth2.algorithm: "HS256"
+core.api.oauth2.access_token_expire_minutes: 30

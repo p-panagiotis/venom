@@ -1,0 +1,3 @@
+# core.api.users
+core.api.users.reset_password_token_expire_hours: 24
+core.api.users.reset_password_subject: "Reset your password"
